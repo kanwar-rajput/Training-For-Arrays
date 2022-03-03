@@ -13,8 +13,8 @@ def isEqual(list1 , list2):
 # Arrays
 l1 = [1,2,3,4]
 l2 = [2,3,4,5]
-l3 = [1,2,3,4]
-l4 = [1,2,3]
+l3 = [1,2,4,3]  # although   l1 and l3 have same elements  yet the testcase is false
+l4 = [1,2,3] # bcz it checks whether both arrays have same elements on same indexes or not
 
 # Test Case 1
 print(isEqual(l1,l2))
